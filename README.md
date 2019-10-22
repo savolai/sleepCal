@@ -8,6 +8,7 @@ Written as a single source file due to the simplicity of the app, to make code m
 
 Copyright (c) 2012, Olli Savolainen 
 All rights reserved. 
+open source, bsd 2-clause license
 
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
@@ -36,5 +37,7 @@ if you would like to develop this further, patches are welcome and I could set u
 *** 
 CHANGES
 * 2014-01-09: fixed issue in Chrome/Chromium where input type="number" without step attribute would not allow entering decimal numbers
-* 2019-10-22: added viewport meta tag and some line breaks to make it responsive on mobile devices
+* 2019-10-22: added viewport meta tag and some line breaks to make it responsive on mobile devices, fixed show only calendar, added to github
+
+
 ... but then, I guess could've just taught them to use a spreadsheet program ...
