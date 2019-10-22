@@ -34,7 +34,7 @@ clear:both;
 margin-top:0.3em;
 background-color:#e6eaff;
 }
-hr{margin:1px 0 1px 0;padding:0 0 0 0 !important;line-height:1px;width:30em;}
+hr{margin:1px 0 1px 0;padding:0 0 0 0 !important;line-height:1px;max-width:30em;}
 form{
 display:block;
 float:left;}
