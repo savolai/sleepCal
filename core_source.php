@@ -196,8 +196,8 @@ function contains($needle, $haystack)
     return strpos($haystack, $needle) !== false;
 }
 ?></div>
-<div id='footer'>developers wanted, see <a href="source.php">source code</a> for info | 
-2012 <a href="http://www.pilpi.net/software/">olli savolainen</a>/<a href="/journal/contact-olli/#FSContact1">contact</a> <br /> 
+<div id='footer'>developers wanted, see <a href="source.php">source code</a>, <a href="README.md">README.md</a> and <a href="https://github.com/savolai/sleepCal/">github</a> for info | 
+2012 <a href="http://www.savolai.net/software/">olli savolainen</a>/<a href="/journal/contact-olli/#FSContact1">contact</a> <br /> 
 open source, bsd 2-clause license | hobby project, built for a friend | eye icon courtesy of <a href="http://www.fotocommunity.com/pc/pc/display/18276395">Wilody</a>
 <blockquote class="style1"><span>works like a german propeller &mdash;user</span></blockquote></div>
 
