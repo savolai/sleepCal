@@ -8,6 +8,8 @@
 <style>
 body{background-color:#163039;color:white;}
 h1{color:white;line-height: 46px; position:relative;top:0.2em;}
+h1 a{text-decoration:none;}
+
 #header a, #footer a{color:white;}
 #footer{clear:both;}
 
@@ -124,7 +126,7 @@ else{
 $viewdays=5;
 }
 
-echo "<div id='header'><h1><img src='eye.jpg' alt='' style='vertical-align:-10%;' /> sleepCal</h1> 
+echo "<div id='header'><h1><img src='eye.jpg' alt='' style='vertical-align:-10%;' /> <a href='./'>sleepCal</a></h1> 
 <q>sleeping calendar for <a href='http://en.wikipedia.org/wiki/Non-24-hour_sleep-wake_syndrome'>circadian rhythm disorder/non-24</a> patients (G47.2)</q> - see also: <a href='http://www.circadiansleepdisorders.org/'>Circadian Sleep Disorders Network</a></div><div id='content'><!--<div style=''>do you have an unusual, but regularly changing sleeping rhythm? want to know if you will be awake next time the world cup or the eurovision contest is on? sleepCal is your answer.</div>-->";
 
 if(is_numeric($_GET['todayhour']) && $_GET['calendar_only']!=='yes')
