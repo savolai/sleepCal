@@ -1,5 +1,5 @@
 <!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>sleepCal - sleeping calendar for circadian rhythm disorder/non-24 patients (G47.2)</title>
 	<link rel="stylesheet" href="skeleton/stylesheets/base.css">
