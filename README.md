@@ -1,6 +1,6 @@
 # sleepCal
 
-SleepCal - http://www.pilpi.net/software/sleepcal/
+SleepCal - https://savolai.net/software/sleepcal/
 
 Sleeping calendar for circadian rhythm disorder/non-24 patients (G47.2)
 
