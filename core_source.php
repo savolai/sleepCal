@@ -9,7 +9,11 @@
 body{background-color:#163039;color:white;}
 h1{color:white;line-height: 46px; position:relative;top:0.2em;}
 h1 a{text-decoration:none;}
-
+	
+	#header, #footer, #content{
+	max-width: 1080px; 
+    margin: 0 auto; 
+	}
 #header a, #footer a{color:white;}
 #footer{clear:both;}
 
