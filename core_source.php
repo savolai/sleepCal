@@ -11,9 +11,52 @@ h1{color:white;line-height: 46px; position:relative;top:0.2em;}
 h1 a{text-decoration:none;}
 	
 	#header, #footer, #container{
-	max-width: 1080px; 
+	max-width: 35em; 
     margin: 0 auto; 
 	}
+	
+
+/* Inline #3 | https://savolai.net/software/sleepcal/?todayhour=1&interval=1&viewmonths=0&viewweeks=0&viewdays=5&startday=01&startmonth=11&startyear=2019/ */
+
+#header, #footer, #container {
+  /* max-width: 1080px; */
+  max-width: 55em;
+  background-color: #ccf1;
+}
+
+#header, #footer {
+  /* padding: 0.5em; */
+  padding: 1em;
+}
+
+#footer {
+  padding-bottom: 1.5em !important;
+}
+
+
+#container {
+  padding-top: 1em;
+}
+
+
+#container {
+  /* padding-top: 1em; */
+  padding: 1em;
+  padding-top: 1em;
+  background-color: #fcfcff33 !important;
+}
+
+#header {
+  padding-top: 1.6em;
+}
+
+#container {
+  /* padding-top: 1em; */
+  padding-top: 1.5em;
+  padding-bottom: 4em;
+}
+
+	
 #header a, #footer a{color:white;}
 #footer{clear:both;}
 
