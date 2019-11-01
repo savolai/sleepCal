@@ -10,22 +10,18 @@ body{background-color:#163039;color:white;}
 h1{color:white;line-height: 46px; position:relative;top:0.2em;}
 h1 a{text-decoration:none;}
 	
-	#header, #footer, #container{
-	max-width: 35em; 
-    margin: 0 auto; 
-	}
 	
 
 /* Inline #3 | https://savolai.net/software/sleepcal/?todayhour=1&interval=1&viewmonths=0&viewweeks=0&viewdays=5&startday=01&startmonth=11&startyear=2019/ */
 
 #header, #footer, #container {
+    margin: 0 auto; 
   /* max-width: 1080px; */
   max-width: 55em;
   background-color: #ccf1;
 }
 
 #header, #footer {
-  /* padding: 0.5em; */
   padding: 1em;
 }
 
@@ -68,7 +64,6 @@ th{font-weight:bold;}
 .help{background-color:#d0e0ff; padding:0.2em;margin-bottom:0.3em;}
 .notification{clear:both;background-color:#ffe0d0; padding:0.2em;margin-bottom:0.3em;}
 q{font-style:italic;line-height:1em;}
-#header,#footer{padding:0.5em;}
 #sidehelp{background-color:#d0e0ff; padding:0.2em;margin-bottom:0.3em;}
 
 @media only screen and (min-width: 954px){
