@@ -10,7 +10,7 @@ body{background-color:#163039;color:white;}
 h1{color:white;line-height: 46px; position:relative;top:0.2em;}
 h1 a{text-decoration:none;}
 	
-	#header, #footer, #content{
+	#header, #footer, #container{
 	max-width: 1080px; 
     margin: 0 auto; 
 	}
@@ -131,7 +131,10 @@ $viewdays=5;
 }
 
 echo "<div id='header'><h1><img src='eye.jpg' alt='' style='vertical-align:-10%;' /> <a href='./'>sleepCal</a></h1> 
-<q>sleeping calendar for <a href='http://en.wikipedia.org/wiki/Non-24-hour_sleep-wake_syndrome'>circadian rhythm disorder/non-24</a> patients (G47.2)</q> - see also: <a href='http://www.circadiansleepdisorders.org/'>Circadian Sleep Disorders Network</a></div><div id='content'><!--<div style=''>do you have an unusual, but regularly changing sleeping rhythm? want to know if you will be awake next time the world cup or the eurovision contest is on? sleepCal is your answer.</div>-->";
+<q>sleeping calendar for <a href='http://en.wikipedia.org/wiki/Non-24-hour_sleep-wake_syndrome'>
+circadian rhythm disorder/non-24</a> patients (G47.2)</q> - see also: 
+<a href='http://www.circadiansleepdisorders.org/'>Circadian Sleep Disorders Network</a></div>
+<div id='content'><div id='container'><!--<div style=''>do you have an unusual, but regularly changing sleeping rhythm? want to know if you will be awake next time the world cup or the eurovision contest is on? sleepCal is your answer.</div>-->";
 
 if(is_numeric($_GET['todayhour']) && $_GET['calendar_only']!=='yes')
 {
@@ -201,7 +204,7 @@ function contains($needle, $haystack)
 {
     return strpos($haystack, $needle) !== false;
 }
-?></div>
+?></div></div>
 <div id='footer'>developers wanted, see <a href="source.php">source code</a>, <a href="README.md">README.md</a> and <a href="https://github.com/savolai/sleepCal/">github</a> for info | 
 2012 <a href="http://www.savolai.net/">olli savolainen</a>/<a href="/journal/contact-olli/#FSContact1">contact</a> <br /> 
 open source, bsd 2-clause license | hobby project, built for a friend | eye icon courtesy of <a href="http://www.fotocommunity.com/pc/pc/display/18276395">Wilody</a>
