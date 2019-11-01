@@ -36,18 +36,18 @@ h1 a{text-decoration:none;}
 
 
 #container {
-  /* padding-top: 1em; */
   padding: 1em;
   padding-top: 1em;
   background-color: #fcfcff33 !important;
 }
 
+
 #header {
-  padding-top: 1.6em;
+  padding-top: 1em;
+  margin-top: 1.8em;
 }
 
 #container {
-  /* padding-top: 1em; */
   padding-top: 1.5em;
   padding-bottom: 4em;
 }
