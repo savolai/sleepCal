@@ -26,7 +26,8 @@ So the entire app is a single PHP file. (Okay, behind the scenes there’s anoth
 
 How does it work? Well, it takes advantage of PHP’s very simple way of passing parameters to the page to the program using the $_GET array. You enter any of the numerical parameters into the form and press submit. They get sent to the server and immediately passed back to the script itself, to produce a new page. 
 
-(These are HTTP GET parameters, so you may want to check what those mean. Caveat: Always check user input from that array, it may be insecure and try to hack you.) 
+(These are HTTP GET parameters, so you may want to check what those mean. 
+Also, caveat: Always check user input from that $_GET array, it may be insecure and try to hack you.) 
 
 Basically what happens is that if all of the numerical parameters are entered in an acceptable way, the table of sleeping times gets generated. If not, an error message is shown. This is what I mean by strange loop above: The script produces the same page from itself over and over again, just modified according to the parameter values. 
 
