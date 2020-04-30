@@ -1,4 +1,6 @@
 <?php 
+// <!-- Please see files README.md for background and LICENSE for the license of this repository -->
+
 /*addMissingTrailingSlash();
 
 
