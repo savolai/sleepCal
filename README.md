@@ -43,16 +43,18 @@ https://en.wikipedia.org/wiki/Strange_loop
 if you would like to develop this further, patches are welcome and I could set up gitHub if you want to work through there.
 
 Prioritized list, most concrete on top: 
-* visualize when the hour cycle starts repeating itself, and when there's a switch in years
-* use hours and minutes instead of decimals
-* there seems to be a bug in the past date dimming sometimes such that even the current day gets dimmed
-* instead of the number of hours the rhythm moves each day, allow giving length of sleep period, length of awake period to determine calendar 
-* use html5 date controls 
+* data entry 
+     * instead of the number of hours the rhythm moves each day, allow giving length of sleep period, length of awake period to determine calendar 
+     * use hours and minutes instead of decimals
+     * allow setting the calendar starting time (use progressive disclosure in the UI)
+     * use html5 date controls 
      * use HTML5 time/date element for form controls and perhaps jQuery UI for the UI for non-HTML5 compliant browsers- http://www.w3.org/TR/2012/WD-html-markup-20120329/input.time.html  http://www.javascriptkit.com/javatutors/createelementcheck2.shtml
+     * as options increase, use progressive disclosure with html5 details element http://webcloud.se/code/jQuery-Collapse/
+* data display
+     * add a real calendar view such as http://arshaw.com/fullcalendar/
+     * visualize when the hour cycle starts repeating itself, and when there's a switch in years
+     * there seems to be a bug in the past date dimming sometimes such that even the current day gets dimmed
 * store user input in a cookie or with a user ID (facebook/google login?) so that users can return to calendar to see their up-to-date calendar even without having the bookmark with them
-* as options increase, use progressive disclosure with html5 details element http://webcloud.se/code/jQuery-Collapse/
-* add a real calendar view such as http://arshaw.com/fullcalendar/
-* allow setting the calendar starting time (use progressive disclosure in the UI)
 * iCal etc. export
 
 *** 
