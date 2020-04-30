@@ -1,5 +1,5 @@
 <?php 
-addMissingTrailingSlash();
+/*addMissingTrailingSlash();
 
 
 // emulate apache behaviour that is broken by .htaccess on savolai.net
@@ -27,14 +27,14 @@ function addMissingTrailingSlash(){
  }
  return $pageURL;
 }
-
+*/
 ?>
 <?php include("core_source.php");?>
 
 
-<!-- visitor tracking, remove the below if you use this outside pilpi.net -->
+<!-- visitor tracking, remove the below if you use this outside savolai.net -->
 <script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://pilpi.net/!res/piwik/" : "http://pilpi.net/!res/piwik/");
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://savolai.net/piwik/" : "https://savolai.net/piwik/");
 document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
 </script><script type="text/javascript">
 try {
@@ -42,7 +42,7 @@ var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);
 piwikTracker.trackPageView();
 piwikTracker.enableLinkTracking();
 } catch( err ) {}
-</script><noscript><p><img src="http://pilpi.net/!res/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
+</script><noscript><p><img src="https://savolai.net/piwik/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript>
 <!-- end: visitor tracking -->
 
 
