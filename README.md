@@ -12,7 +12,7 @@ open source, bsd 2-clause license
 
 ***
 
-This app is a strange loop
+## This app is a strange loop
 
 Pardon the reference to the lovely book.
 https://en.wikipedia.org/wiki/I_Am_a_Strange_Loop
