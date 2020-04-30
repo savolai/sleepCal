@@ -1,3 +1,4 @@
+<!-- Please see files README.md for background and LICENSE for the license of this repository -->
 <!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
