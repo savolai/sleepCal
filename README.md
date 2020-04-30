@@ -25,7 +25,7 @@ You might want to familiarize yourself with basics of PHP to understand this app
 * Tutorial: https://www.w3schools.com/php/
 * Condensed: https://users.astro.ufl.edu/~warner/prog/php.html
 
-How does it work? Well, it takes advantage of PHP’s very simple way of passing parameters to the page to the program using the $_GET array. You enter any of the numerical parameters into the form and press submit. They get sent to the server and immediately passed back to the script itself, to produce a new page. 
+How does the app work? Well, it takes advantage of PHP’s very simple way of passing parameters to the page to the program using the $_GET array. You enter any of the numerical parameters into the form and press submit. They get sent to the server and immediately passed back to the script itself, to produce a new page. 
 
 (These are HTTP GET parameters, so you may want to check what those mean. 
 Also, caveat: Always check user input from that $_GET array, it may be insecure and try to hack you.) 
