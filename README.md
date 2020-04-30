@@ -17,7 +17,7 @@ open source, bsd 2-clause license
 Pardon the reference to the lovely book.
 https://en.wikipedia.org/wiki/I_Am_a_Strange_Loop
 
-And no, I don't think this is actually not a strange loop in terms of the official definition.
+And no, I don't think this is actually a strange loop in terms of the official definition. (Whaddaya know, there is one.)
 https://en.wikipedia.org/wiki/Strange_loop
 
 With sleepCal, I decided to allow myself to go the easiest scripting route possible. In a way, this is not far from what scripting in Excel is like. No architecture, just very immediate goal centered coding. Definitely not software engineering, just easy coding.
