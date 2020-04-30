@@ -29,10 +29,6 @@ h1 a{text-decoration:none;}
 }
 
 
-#container {
-  padding-top: 1em;
-}
-
 
 #container {
   padding: 1em;
