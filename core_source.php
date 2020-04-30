@@ -32,19 +32,15 @@ h1 a{text-decoration:none;}
 
 #container {
   padding: 1em;
-  padding-top: 1em;
   background-color: #fcfcff33 !important;
+  padding-top: 1.5em;
+  padding-bottom: 4em;
 }
 
 
 #header {
   padding-top: 1em;
   margin-top: 1.8em;
-}
-
-#container {
-  padding-top: 1.5em;
-  padding-bottom: 4em;
 }
 
 	
