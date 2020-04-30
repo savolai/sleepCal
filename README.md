@@ -48,7 +48,7 @@ Prioritized list, most concrete on top:
      * use hours and minutes instead of decimals
      * allow setting the calendar starting time (use progressive disclosure in the UI)
      * use html5 date controls 
-     * use HTML5 time/date element for form controls and perhaps jQuery UI for the UI for non-HTML5 compliant browsers- http://www.w3.org/TR/2012/WD-html-markup-20120329/input.time.html  http://www.javascriptkit.com/javatutors/createelementcheck2.shtml
+          * use HTML5 time/date element for form controls and perhaps jQuery UI for the UI for non-HTML5 compliant browsers- http://www.w3.org/TR/2012/WD-html-markup-20120329/input.time.html  http://www.javascriptkit.com/javatutors/createelementcheck2.shtml
      * as options increase, use progressive disclosure with html5 details element http://webcloud.se/code/jQuery-Collapse/
 * data display
      * add a real calendar view such as http://arshaw.com/fullcalendar/
