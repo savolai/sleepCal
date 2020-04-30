@@ -1,7 +1,7 @@
-<!-- Please see files README.md for background and LICENSE for the license of this repository -->
 <!DOCTYPE html><html lang="en-us"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- Please see files README.md for background and LICENSE for the license of this repository -->
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>sleepCal - sleeping calendar for circadian rhythm disorder/non-24 patients (G47.2)</title>
 	<link rel="stylesheet" href="skeleton/stylesheets/base.css">
 	<link rel="stylesheet" href="skeleton/stylesheets/skeleton.css">
@@ -11,8 +11,6 @@ body{background-color:#163039;color:white;}
 h1{color:white;line-height: 46px; position:relative;top:0.2em;}
 h1 a{text-decoration:none;}
 	
-	
-
 /* Inline #3 | https://savolai.net/software/sleepcal/?todayhour=1&interval=1&viewmonths=0&viewweeks=0&viewdays=5&startday=01&startmonth=11&startyear=2019/ */
 
 #header, #footer, #container {
