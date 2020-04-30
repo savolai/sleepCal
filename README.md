@@ -41,6 +41,7 @@ https://en.wikipedia.org/wiki/Strange_loop
 ## TODO - DEVELOPERS WANTED!
 
 if you would like to develop this further, patches are welcome and I could set up gitHub if you want to work through there.
+* visualize when the hour cycle starts repeating itself, and when there's a switch in years
 * add a real calendar view such as http://arshaw.com/fullcalendar/
 * store user input in a cookie or with a user ID (facebook/google login?) so that users can return to calendar to see their up-to-date calendar even without having the bookmark with them
 * there seems to be a bug in the past date dimming sometimes such that even the current day gets dimmed
@@ -48,10 +49,9 @@ if you would like to develop this further, patches are welcome and I could set u
 * use hours and minutes instead of decimals
 * use HTML5 time/date element for form controls and perhaps jQuery UI for the UI for non-HTML5 compliant browsers- http://www.w3.org/TR/2012/WD-html-markup-20120329/input.time.html  http://www.javascriptkit.com/javatutors/createelementcheck2.shtml
 * as options increase, use progressive disclosure with html5 details element http://webcloud.se/code/jQuery-Collapse/
-* use html5 date controls backed by
+* use html5 date controls 
 * instead of the number of hours the rhythm moves each day, allow giving length of sleep period, length of awake period to determine calendar 
 * iCal etc. export
-* visualize when the hour cycle starts repeating itself
 * host an SSL-enabled version on a separate server, symlink the source so both update at the same time
 *** 
 CHANGES
