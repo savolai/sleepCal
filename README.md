@@ -14,11 +14,8 @@ open source, bsd 2-clause license
 
 ## This app is a strange loop
 
-Pardon the reference to the lovely book.
+Pardon the reference to the lovely book, which I've only started.
 https://en.wikipedia.org/wiki/I_Am_a_Strange_Loop
-
-And no, I don't think this is actually a strange loop in terms of the official definition. (Whaddaya know, there is one.)
-https://en.wikipedia.org/wiki/Strange_loop
 
 With sleepCal, I decided to allow myself to go the easiest scripting route possible. In a way, this is not far from what scripting in Excel is like. No architecture, just very immediate goal centered coding. Definitely not software engineering, just easy coding.
 
@@ -32,6 +29,10 @@ Also, caveat: Always check user input from that $_GET array, it may be insecure 
 Basically what happens is that if all of the numerical parameters are entered in an acceptable way, the table of sleeping times gets generated. If not, an error message is shown. This is what I mean by strange loop above: The script produces the same page from itself over and over again, just modified according to the parameter values. 
 
 There is no client side logic. There are no pages for showing the results, separate from the form page itself. Even the CSS is inlined, because why not? There's only a single page to show it anyway. (Don't come whining to me about wasting bandwidth. The page is tiny anyway.) It's a kind of a strange loop.
+
+Although no, I don't think this is actually a strange loop in terms of the official definition. (Whaddaya know, there is one, and it's from the book.)
+https://en.wikipedia.org/wiki/Strange_loop
+
 
 ## TODO - DEVELOPERS WANTED!
 
