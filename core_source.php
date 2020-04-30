@@ -178,7 +178,8 @@ if(is_numeric($_GET['todayhour']) && $_GET['calendar_only']!=='yes')
 {
 echo "<div id='sidehelp'>Note! You can bookmark or save the address of this page to later check the same calendar again.</div>";
 }
-echo "<form method='GET'><div class='help'>(decimals allowed for hours. use . as separator)</div>
+/*we need action=index.php - if it is missing, some form submits end up trying to submit to http://example.com:443 instead of https://example.com */
+echo "<form method='GET' action='index.php'><div class='help'>(decimals allowed for hours. use . as separator)</div>
 the hour to go to sleep  today: <br><input name='todayhour' type='number' step='0.1' min='0'  style='width:4em;' value='$todayhour'/> <hr />
 number of hours sleeping rhythm<br>moves forward in one day: <br>
 <input name='interval' type='number' step='0.1' min='0' style='width:4em;' value='$interval'/> <hr />
